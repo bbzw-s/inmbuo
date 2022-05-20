@@ -7,18 +7,15 @@
 - [Dokumentation Projektarbeit M226B \& M120](#dokumentation-projektarbeit-m226b--m120)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Einleitung (Management Summary)](#einleitung-management-summary)
-      - [Aufgabenstellung](#aufgabenstellung)
-      - [Zweck dieses Dokuments](#zweck-dieses-dokuments)
   - [Planung](#planung)
     - [User Stories \[Grobkonzept II\]](#user-stories-grobkonzept-ii)
     - [Scribbles \[Grobkonzept II\]](#scribbles-grobkonzept-ii)
-    - [Einarbeitung in Adobe XD \[Detailkonzept I\]](#einarbeitung-in-adobe-xd-detailkonzept-i)
     - [Prototyp \[Detailkonzept II\]](#prototyp-detailkonzept-ii)
     - [Usability Tests \[Detailkonzept III\]](#usability-tests-detailkonzept-iii)
   - [Umsetzung](#umsetzung)
     - [Views \[Umsetzung I\]](#views-umsetzung-i)
-    - [MVVM Pattern \[Umsetzung II\]](#mvvm-pattern-umsetzung-ii)
-    - [Implementation des MVVM Pattern \[Umsetzung III\]](#implementation-des-mvvm-pattern-umsetzung-iii)
+    - [MVC Pattern \[Umsetzung II\]](#mvc-pattern-umsetzung-ii)
+    - [Implementation des MVC Pattern \[Umsetzung III\]](#implementation-des-mvc-pattern-umsetzung-iii)
 
 ## Einleitung (Management Summary)
 
@@ -26,11 +23,9 @@
 
 **Erstelldatum**: 13.05.2022
 
-#### Aufgabenstellung
-
-#### Zweck dieses Dokuments
-
 ## Planung
+
+In diesem Abschnitt ist der Planungsprozess dokumentiert.
 
 ### User Stories [Grobkonzept II]
 
@@ -41,36 +36,45 @@ In der folgenden Tabelle sind sämtliche User Stories aufgelistet, welche in die
 - Abgeschlossen: ✔️
 - Nicht abgeschlossen: ❌
 
-| ID    | User Story                                                                                                                                                                                              | Abnahmekriterien                                                                                                                                                                    | Priorität*¹ | Status |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------ |
-| **1** | Als Benutzer möchte ich die neusten Blogposts nach Kategorie sortiert sehen. |                                                  | 1          | ❌    |
-| **2** | Als Benutzer möchte ich weitere Blogposts einer Kategorie sehen, wenn ich auf die Kategorie klicke. |  | 1 | ❌ |
-| **3** | Als Benutzer möchte ich einen neuen Blogpost erstellen können. |  | 1 | ❌ |
-| **4** | Als Benutzer möchte ich mich Anmelden können. |  | 2 | ❌ |
-| **5** | Als Benutzer möchte ich meine Blogposts bearbeiten können. |  | 2 | ❌ |
-| **6** | Als Benutzer möchte ich mein Profil bearbeiten können. |  | 3 | ❌ |
+| ID    | User Story                                                                                          | Abnahmekriterien | Priorität*¹ | Status |
+| ----- | --------------------------------------------------------------------------------------------------- | ---------------- | ----------- | ------ |
+| **1** | Als Benutzer möchte ich die neusten Blogposts nach Kategorie sortiert sehen.                        |                  | D           | ❌      |
+| **2** | Als Benutzer möchte ich weitere Blogposts einer Kategorie sehen, wenn ich auf die Kategorie klicke. |                  | D           | ❌      |
+| **3** | Als Benutzer möchte ich einen neuen Blogpost erstellen können.                                      |                  | A           | ❌      |
+| **4** | Als Benutzer möchte ich mich Anmelden können.                                                       |                  | A           | ❌      |
+| **5** | Als Benutzer möchte ich meine Blogposts bearbeiten können.                                          |                  | C           | ❌      |
+| **6** | Als Benutzer möchte ich mein Profil bearbeiten können.                                              |                  | B           | ❌      |
 
 *¹ **Prioritäten**
 
-Die Priorisierung erfolgt nach der Eisenhower Matrix. Sie ist in der folgenden Graphik abgebildet.  
+Die Priorisierung erfolgt nach der Eisenhower Matrix. Sie ist in der folgenden Graphik abgebildet. Mehr Information finden Sie [hier](https://de.wikipedia.org/wiki/Eisenhower-Prinzip). 
 
 ![Eisenhower Prinzip](assets/eisenhower.jpg)
 
 ### Scribbles [Grobkonzept II]
 
-### Einarbeitung in Adobe XD [Detailkonzept I]
+> Die Scribbles für die Abgabe "Grobkonzept II" wurden separat abgegeben. Sie werden zu einem späteren Zeitpunkt noch zu diesem Dokument hinzugefügt.
 
 ### Prototyp [Detailkonzept II]
 
+> Inhalte folgen
+
 ### Usability Tests [Detailkonzept III]
+
+> Inhalte folgen
 
 ## Umsetzung
 
+> Inhalte folgen
+
 ### Views [Umsetzung I]
 
-### MVVM Pattern [Umsetzung II]
+> Inhalte folgen
 
-### Implementation des MVVM Pattern [Umsetzung III]
+### MVC Pattern [Umsetzung II]
 
+> Inhalte folgen
 
+### Implementation des MVC Pattern [Umsetzung III]
 
+> Inhalte folgen
