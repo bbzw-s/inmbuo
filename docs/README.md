@@ -36,14 +36,14 @@ In der folgenden Tabelle sind sämtliche User Stories aufgelistet, welche in die
 - Abgeschlossen: ✔️
 - Nicht abgeschlossen: ❌
 
-| ID    | User Story                                                                                          | Abnahmekriterien | Priorität*¹ | Status |
-| ----- | --------------------------------------------------------------------------------------------------- | ---------------- | ----------- | ------ |
-| **1** | Als Benutzer möchte ich die neusten Blogposts nach Kategorie sortiert sehen.                        |                  | D           | ❌      |
-| **2** | Als Benutzer möchte ich weitere Blogposts einer Kategorie sehen, wenn ich auf die Kategorie klicke. |                  | D           | ❌      |
-| **3** | Als Benutzer möchte ich einen neuen Blogpost erstellen können.                                      |                  | A           | ❌      |
-| **4** | Als Benutzer möchte ich mich Anmelden können.                                                       |                  | A           | ❌      |
-| **5** | Als Benutzer möchte ich meine Blogposts bearbeiten können.                                          |                  | C           | ❌      |
-| **6** | Als Benutzer möchte ich mein Profil bearbeiten können.                                              |                  | B           | ❌      |
+| ID    | User Story                                                   | Abnahmekriterien                                             | Priorität*¹ | Status |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- | ------ |
+| **1** | Als Benutzer möchte ich die neusten Blogposts nach Kategorie sortiert sehen. | - Ein Blogpost wird in der richtigen Kategorie angezeigt.<br/>- Blogposts sind nach Kategorien gruppiert/sortiert.<br/>- Alle Kategorien werden angezeigt.<br/>- Es werden nur die fünf neusten Blogposts pro Kategorie angezeigt. | D           | ❌      |
+| **2** | Als Benutzer möchte ich weitere Blogposts einer Kategorie sehen, wenn ich auf die Kategorie klicke. | - Ein Blogpost wird in der richtigen Kategorie angezeigt.<br/>- Alle Blogposts der Kategorie werden angezeigt.<br/>- Die Blogposts sind nach Erstelldatum sortiert. | D           | ❌      |
+| **3** | Als Benutzer möchte ich einen neuen Blogpost erstellen können. | - Feld für Titel<br/>- Feld für Inhalt<br/>- Veröffentlichungsstatus kann festgelegt werden (Entwurf, Veröffentlicht)<br/>- Kategorie kann ausgewählt werden | A           | ❌      |
+| **4** | Als Benutzer möchte ich mich Anmelden können.                | - Feld für Benutzername<br/>- Feld für Password              | A           | ❌      |
+| **5** | Als Benutzer möchte ich meine Blogposts bearbeiten können.   | - Titel, Inhalt, Veröffentlichungsstatus und Kategorie können verändert werden. | C           | ❌      |
+| **6** | Als Benutzer möchte ich mein Profil bearbeiten können.       | - Benutzername, Passwort, Biografie und Profilbild können bearbeitet werden. | B           | ❌      |
 
 *¹ **Prioritäten**
 
