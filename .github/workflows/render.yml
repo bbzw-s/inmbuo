@@ -25,7 +25,7 @@ jobs:
       - name: Upload Document
         uses: actions/upload-artifact@v2
         with:
-          name: 'document.pdf'
+          name: 'Projektdokumentation_M120_M226B_Studer_Huber.pdf'
           path: ${{ steps.document.outputs.pdf }}
 
       - uses: ncipollo/release-action@v1
