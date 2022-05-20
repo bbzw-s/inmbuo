@@ -2,7 +2,8 @@ name: Render to PDF
 
 on:
   push:
-    branches: ['master']
+    tags:
+    - '*'
 
 jobs:
   render:
