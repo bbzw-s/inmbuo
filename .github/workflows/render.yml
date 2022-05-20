@@ -8,6 +8,9 @@ jobs:
   render:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -23,3 +26,10 @@ jobs:
         with:
           name: 'document.pdf'
           path: ${{ steps.document.outputs.pdf }}
+
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: ${{ steps.document.outputs.pdf }}
+          draft: true
+          generateReleaseNotes: true
+          token: ${{ secrets.GITHUB_TOKEN }}
