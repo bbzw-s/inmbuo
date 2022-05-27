@@ -8,14 +8,11 @@
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Einleitung (Management Summary)](#einleitung-management-summary)
   - [Planung](#planung)
-    - [User Stories \[Grobkonzept II\]](#user-stories-grobkonzept-ii)
-    - [Scribbles \[Grobkonzept II\]](#scribbles-grobkonzept-ii)
-    - [Prototyp \[Detailkonzept II\]](#prototyp-detailkonzept-ii)
-    - [Usability Tests \[Detailkonzept III\]](#usability-tests-detailkonzept-iii)
-  - [Umsetzung](#umsetzung)
-    - [Views \[Umsetzung I\]](#views-umsetzung-i)
-    - [MVC Pattern \[Umsetzung II\]](#mvc-pattern-umsetzung-ii)
-    - [Implementation des MVC Pattern \[Umsetzung III\]](#implementation-des-mvc-pattern-umsetzung-iii)
+    - [User Stories \(Grobkonzept I\)](#user-stories-grobkonzept-i)
+    - [Scribbles \(Grobkonzept II\)](#scribbles-grobkonzept-ii)
+    - [Prototyp \(Detailkonzept II\)](#prototyp-detailkonzept-ii)
+      - [User Scenario](#user-scenario)
+    - [Usability Tests \(Detailkonzept III\)](#usability-tests-detailkonzept-iii)
 
 ## Einleitung (Management Summary)
 
@@ -27,7 +24,7 @@
 
 In diesem Abschnitt ist der Planungsprozess dokumentiert.
 
-### User Stories [Grobkonzept II]
+### User Stories (Grobkonzept I)
 
 In der folgenden Tabelle sind sämtliche User Stories aufgelistet, welche in diesem Projekt umgesetzt werden sollen. Die Tabelle ist nach Priorität der User Story sortiert. Jede User Story hat zusätzlich eine Liste von Abnahmekriterien, welche festlegen, wann eine User Story als implementiert und abgeschlossen gilt. Die letzte Spalte der Tabelle signalisiert, ob eine User Story abgeschlossen wurde, oder nicht.
 
@@ -51,30 +48,16 @@ Die Priorisierung erfolgt nach der Eisenhower Matrix. Sie ist in der folgenden G
 
 ![Eisenhower Prinzip](assets/eisenhower.jpg)
 
-### Scribbles [Grobkonzept II]
+### Scribbles (Grobkonzept II)
 
 > Die Scribbles für die Abgabe "Grobkonzept II" wurden separat abgegeben. Sie werden zu einem späteren Zeitpunkt noch zu diesem Dokument hinzugefügt.
 
-### Prototyp [Detailkonzept II]
+### Prototyp (Detailkonzept II)
 
-> Inhalte folgen
+[Hier finden Sie unseren Adobe XD Prototypen](https://xd.adobe.com/view/6aa13fe3-38bb-4908-82a1-828bd68d5a03-3ff2/).
 
-### Usability Tests [Detailkonzept III]
+#### User Scenario
 
-> Inhalte folgen
-
-## Umsetzung
-
-> Inhalte folgen
-
-### Views [Umsetzung I]
-
-> Inhalte folgen
-
-### MVC Pattern [Umsetzung II]
-
-> Inhalte folgen
-
-### Implementation des MVC Pattern [Umsetzung III]
+### Usability Tests (Detailkonzept III)
 
 > Inhalte folgen
