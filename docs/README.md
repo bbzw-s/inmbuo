@@ -8,11 +8,11 @@
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Einleitung (Management Summary)](#einleitung-management-summary)
   - [Planung](#planung)
-    - [User Stories \(Grobkonzept I\)](#user-stories-grobkonzept-i)
-    - [Scribbles \(Grobkonzept II\)](#scribbles-grobkonzept-ii)
-    - [Prototyp \(Detailkonzept II\)](#prototyp-detailkonzept-ii)
+    - [User Stories (Grobkonzept I)](#user-stories-grobkonzept-i)
+    - [Scribbles (Grobkonzept II)](#scribbles-grobkonzept-ii)
+    - [Prototyp (Detailkonzept II)](#prototyp-detailkonzept-ii)
       - [User Scenario](#user-scenario)
-    - [Usability Tests \(Detailkonzept III\)](#usability-tests-detailkonzept-iii)
+    - [Usability Tests (Detailkonzept III)](#usability-tests-detailkonzept-iii)
 
 ## Einleitung (Management Summary)
 
@@ -58,6 +58,34 @@ Die Priorisierung erfolgt nach der Eisenhower Matrix. Sie ist in der folgenden G
 
 #### User Scenario
 
+**Wer?** Der Benutzer in diesem Szenario arbeitet als Entwickler bei einer Firma, deren Büro in der Innenstadt liegt. Der Benutzer selbst wohnt ausserhalb der Stadt. Er fährt jeden Tag mit dem Zug zur Arbeit. Er ist etwa 30 Jahre alt, ist verheiratet und hat ein Kind.
+
+**Was?** Das Ziel des Benutzers ist es, neues und interessantes aus dem Fachbereich der Software Entwicklung zu erfahren.
+
+**Wann und Wo?** Während der Pause im Büro, oder abends zum Zeitvertreib, oder auch im Zug auf dem Weg ins Büro.
+
+**Wieso?** Aus Langeweile und zum Zeitvertreib, aber hautpsächlich um etwas neues zu lernen.
+
 ### Usability Tests (Detailkonzept III)
 
-> Inhalte folgen
+**Durchführungsort:** Feld
+
+**Durchführungsart:** Persönlich
+
+**Moderation:** Unmoderiert
+
+**Fragen die wir mit dem Usability Test beantwortet werden möchten sind:**
+
+- **Kann der Benutzer die Software intuitiv navigieren?** Ja, der Benutzer hat keine Probleme mit der Navigation. Da die Benutzeroberfläche ähnlich ist wie andere Applikationen die ähnliches leisten, fühlt sich der Benutzer vertraut mit der Benutzeroberfläche.
+
+- **Ist klar erkennbar welches die Steuerelemente (Buttons etc.) sind?** Ja, die Steuerelemente sollten gut erkennbar sein.
+
+- **Ziele der Tests:** Wir wollen herausfinden ob unsere Applikation einfach zu bedienen ist.
+
+**Tests**
+- Melden Sie sich an.
+    - Abgeschlossen wenn man sich auf der Anmeldeseite befindet (Login Logik funktioniert im XD Prototyp nicht)
+- Erkundigen Sie sich über die beliebteste Post Kategorie.
+    - Abgeschlossen wenn man bei der Kategorie "Engineering und Architektur" auf "Mehr Anzeigen" drückt.
+- Lesen Sie den Artikel über Microservices mit linkerd.
+    - Abgeschlossen wenn man auf den Artikel "Microservices mit linkerd" drückt und danach den Text durchliest.
