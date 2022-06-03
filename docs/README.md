@@ -89,3 +89,11 @@ Die Priorisierung erfolgt nach der Eisenhower Matrix. Sie ist in der folgenden G
     - Abgeschlossen wenn man bei der Kategorie "Engineering und Architektur" auf "Mehr Anzeigen" drückt.
 - Lesen Sie den Artikel über Microservices mit linkerd.
     - Abgeschlossen wenn man auf den Artikel "Microservices mit linkerd" drückt und danach den Text durchliest.
+
+## Umsetzung
+
+In diesem Abschnitt wird der Umsetzungsprozess dokumentiert, vom erstellen der Views, bis zur Implementation der Logik.
+
+### View (Umsetzung I)
+
+
