@@ -4,4 +4,8 @@ Diese GitHub Repository enthält die Dokumentation sowie den Code für die Proje
 
 ## Dokumentation
 
-Die Abgabefertige Dokumentation und allfällige Artefakte stehen als Release auf GitHub im PDF Format zur Verfügung. Die Releases finden Sie [hier](https://github.com/lnstuder/inmbuo/releases).
+Der neuste Stand der Dokumenation befindet sich im `docs` Verzeichnis.
+
+## Umsetzung
+
+Die Umsetzung des Projekts befindet sich im Verzeichnis `umsetzung`.
