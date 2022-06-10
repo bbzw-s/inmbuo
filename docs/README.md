@@ -96,4 +96,31 @@ In diesem Abschnitt wird der Umsetzungsprozess dokumentiert, vom erstellen der V
 
 ### View (Umsetzung I)
 
+Da wir das Projekt mit WPF und C# auf .NET 6 entwickeln, wurden unsere beiden Views in XAML geschrieben. Wir haben dabei versucht, uns so nah wie möglich an unseren Prototypen zu halten.
+
+### MV* Patterns (Umsetzung II)
+
+Wir haben das aus ÜKs und autodidaktischer Bildung bereits vorhandene Wissen über die verschiedenen MV* Patterns mit Tutorials wieder aufgefrischt. Dazu haben wir folgende Ressourcen verwendet:
+
+**MVVM*
+- [Microsoft Docs](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern)
+- [Dev Insider](https://www.dev-insider.de/was-bedeutet-mvvm-a-1103448)
+- [Medium](https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad)
+
+**MVP**
+- [Medium](https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad)
+- [Mark Health Blog](https://markheath.net/post/model-view-presenter-winforms)
+
+**MVC**
+- [Medium](https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad)
+- [Tutorialspoint](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
+
+#### Beurteilung der Ressourcen
+
+- Die Microsoft Docs, welche bereits WPF als spezifischen Anwendungsfall aufbringen war sehr Hilfreich, da sie mit Code Snippets aufzeigt, wie man MVVM auch wirklich implementiert.
+- Der Medium Artikel hat alle drei Patterns kurz erklärt und erläutert, was die Funktionen der einzelnen Komponenten des Patterns (z.Bsp. Model, View und Controller) sind.
+- Der Artikel auf Dev Insider hat zwar eine grosse Menge an Text und wenig anschauliche Beispiele, ist dafür jedoch gut strukturiert und verständlich geschrieben.
+- Tutorialspoint bietet eine Schritt für Schritt Anleitung zur Implementation des MVC Patterns und erklärt dabei jeden Schritt so, dass man versteht, was der Code tut.
+- Der Artikel des Mark Health Blogs erläutert das MVP Pattern und nennt einige Vorteile. Ausserdem ist eine Demo auf Github verlinkt.
+
 
