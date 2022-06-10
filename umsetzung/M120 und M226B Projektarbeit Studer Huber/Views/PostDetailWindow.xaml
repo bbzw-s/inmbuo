@@ -1,0 +1,50 @@
+﻿<Window x:Class="M120_und_M226B_Projektarbeit_Studer_Huber.Views.PostDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M120_und_M226B_Projektarbeit_Studer_Huber.Views"
+        mc:Ignorable="d"
+        Title="techblog" Height="800" Width="1000" MinHeight="800" MinWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"  />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"  />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Margin="5" RadiusX="5" RadiusY="5" Fill="#fbfbfb"/>
+        <Grid Grid.Row="0" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Column="0" Text="techblog" Margin="10,0,0,0" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" FontSize="20"/>
+            
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,10,0">
+                <TextBlock Text="registrieren" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" Margin="0,0,10,0" FontSize="16" />
+                <TextBlock Text="login" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" FontSize="16" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="4*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Margin="10">
+                <TextBlock Text="{Binding Post.Title}" Margin="30,0,0,0" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="22" Foreground="#4e4e4e" />
+                <TextBlock Text="{Binding Post.Description}" Margin="30,10,0,0" FontFamily="Bahnschrift" FontSize="16" Foreground="#4e4e4e" />
+                <StackPanel Orientation="Horizontal" Margin="30,10,0,0">
+                    <TextBlock Text="Erstellt von " FontFamily="Bahnschrift" FontSize="12" Foreground="#4e4e4e" />
+                    <TextBlock Text="{Binding Post.Author}" FontFamily="Bahnschrift" FontSize="12" Foreground="#4e4e4e" />
+                    <TextBlock Text=", am " FontFamily="Bahnschrift" FontSize="12" Foreground="#4e4e4e" />
+                    <TextBlock Text="{Binding Post.CreatedOn}" FontFamily="Bahnschrift" FontSize="12" Foreground="#4e4e4e" />
+                </StackPanel>
+            </StackPanel>
+
+            <TextBlock Grid.Row="1" Text="{Binding Post.Content}" Margin="15" FontFamily="Bahnschrift" FontSize="14" Foreground="#4e4e4e" TextWrapping="Wrap"/>
+        </Grid>
+        <Rectangle Grid.Row="2" Margin="5" RadiusX="5" RadiusY="5" Fill="#fbfbfb"/>
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Text="Copyleft © 2022 Lian Studer &amp; Kris Huber" FontFamily="Bahnschrift" FontWeight="Light" Foreground="#4e4e4e" Margin="0,0,10,0" FontSize="10" />
+    </Grid>
+</Window>

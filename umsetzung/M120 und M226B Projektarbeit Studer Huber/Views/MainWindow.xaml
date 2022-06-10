@@ -1,0 +1,88 @@
+﻿<Window x:Class="M120_und_M226B_Projektarbeit_Studer_Huber.MainWindow"
+        x:Name="PostDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:local="clr-namespace:M120_und_M226B_Projektarbeit_Studer_Huber"
+        mc:Ignorable="d"
+        Title="techblog" Height="800" Width="1000" MinHeight="800" MinWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"  />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"  />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Margin="5" RadiusX="5" RadiusY="5" Fill="#fbfbfb"/>
+        <Grid Grid.Row="0" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Column="0" Text="techblog" Margin="10,0,0,0" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" FontSize="20"/>
+            
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,10,0">
+                <TextBlock Text="registrieren" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" Margin="0,0,10,0" FontSize="16" />
+                <TextBlock Text="login" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#00cdff" FontSize="16" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="4*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Margin="10">
+                <TextBlock Text="Beliebteste Kategorien" Margin="30,0,0,0" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="22" Foreground="#4e4e4e" />
+                <TextBlock Text="Die angesagtesten Post Kategorien" Margin="30,10,0,0" FontFamily="Bahnschrift" FontSize="16" Foreground="#4e4e4e" />
+            </StackPanel>
+            <ScrollViewer  Grid.Row="1" VerticalContentAlignment="Top" VerticalAlignment="Top">
+                <StackPanel Margin="10">
+                    <ItemsControl x:Name="Categories" ItemsSource="{Binding PostCategories}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="20,0,0,30" Background="#fbfbfb">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" MinWidth="120" />
+                                        <ColumnDefinition Width="3*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Column="0" Margin="0,20" VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding Title}" TextWrapping="Wrap"  Margin="30,0,0,0" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="18" Foreground="#4e4e4e" />
+                                        <TextBlock Text="{Binding SubTitle}" TextWrapping="Wrap" Margin="30,10,0,0" FontFamily="Bahnschrift" FontSize="14" Foreground="#4e4e4e" />
+                                    </StackPanel>
+
+                                    <ItemsControl x:Name="Posts" ItemsSource="{Binding Posts}" Grid.Column="1">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Width="150" Margin="10,10" Background="#ffffff">
+                                                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Margin="5,5,5,0" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="16" Foreground="#4e4e4e" />
+                                                    <Separator HorizontalAlignment="Stretch" Background="#00cdff" Margin="5" />
+                                                    <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="5,0,5,5" FontFamily="Bahnschrift" FontSize="12" Foreground="#4e4e4e" />
+                                                    <Button Content="Anzeigen" Background="#00cdff" Foreground="#4e4e4d" BorderThickness="0" Margin="5" Padding="5" Command="{Binding ElementName=PostDetailWindow, Path=DataContext.ShowPostDetailsCommand}" CommandParameter="{Binding}"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <WrapPanel Margin="10,10" HorizontalAlignment="Left" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                    </ItemsControl>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Margin="10" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Rectangle Grid.Row="2" Margin="5" RadiusX="5" RadiusY="5" Fill="#fbfbfb"/>
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Text="Copyleft © 2022 Lian Studer &amp; Kris Huber" FontFamily="Bahnschrift" FontWeight="Light" Foreground="#4e4e4e" Margin="0,0,10,0" FontSize="10" />
+    </Grid>
+</Window>

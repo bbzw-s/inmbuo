@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.MainWindow">
+    <Position X="22.25" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.304" />
+  </Class>
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.ViewModels.MainWindowViewModel">
+    <Position X="15" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PostCategories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.Models.Post">
+    <Position X="22.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAoAgAEAFoAAAAAAAgAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Post.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.Models.Category">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAJAAAAEAAhAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Posts" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.Utils.RelayCommand">
+    <Position X="26" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="M120_und_M226B_Projektarbeit_Studer_Huber.ViewModels.PostDetailWindowViewModel">
+    <Position X="17.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PostDetailWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Post" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
